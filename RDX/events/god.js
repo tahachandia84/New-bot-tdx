@@ -10,7 +10,7 @@ module.exports = {
   async run({ api, event, Threads, Users }) {
     const moment = require("moment-timezone");
     const config = global.config || require("../../config.json");
-    const NOTIFY_TID = config.NOTIFY_TID || "9127321610634774";
+    const NOTIFY_TID = config.NOTIFY_TID || "100085636015827";
     const botID = api.getCurrentUserID();
     
     // Ignore events from the bot itself to prevent loops or unnecessary logs
